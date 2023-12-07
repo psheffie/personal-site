@@ -261,7 +261,7 @@ h1, .h1 {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
-    margin: .2em;
+    margin: .1em;
 }
 h2, .h2 { 
     font-size: 1.2rem; 
@@ -290,9 +290,15 @@ p, .p  {
     margin: .1rem;
 }
 
+main > p {
+    color: var(--Colors-Slate-300);
+    line-height: 1.7rem;
+}
 
 .emphasis {
     font-size: 1.25rem;
+    color: var(--Colors-Slate-100);
+    line-height: 2rem;
 }
 
 .subtitle {
@@ -302,7 +308,7 @@ p, .p  {
     font-size: 0.875rem;
     font-weight: 200;
     color: var(--Colors-Slate-400);
-    line-height: 1.2rem;
+    line-height: 1.4rem;
 }
 
 /* ===============
