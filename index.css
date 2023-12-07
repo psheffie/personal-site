@@ -295,10 +295,12 @@ main > p {
     line-height: 1.7rem;
 }
 
-.emphasis {
+h5 {
     font-size: 1.25rem;
+    font-weight: 400;
     color: var(--Colors-Slate-100);
     line-height: 2rem;
+    margin-bottom: .5em;
 }
 
 .subtitle {
