@@ -281,6 +281,13 @@ h3, .h3 {
 h4, .h4 { 
     font-size: 0.88rem; 
 }
+h5 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: var(--Colors-Slate-100);
+    line-height: 2rem;
+    margin-bottom: .5em;
+}
 p, .p  { 
     font-size: 1rem; 
     font-style: normal;
@@ -295,13 +302,6 @@ main > p {
     line-height: 1.7rem;
 }
 
-h5 {
-    font-size: 1.25rem;
-    font-weight: 400;
-    color: var(--Colors-Slate-100);
-    line-height: 2rem;
-    margin-bottom: .5em;
-}
 
 .subtitle {
     font-weight: 500;
@@ -321,6 +321,7 @@ Images
     width: 126px;
     height: 126px;
     border-radius: 50%;
+    padding: 1.4em;
 }
 
 /* ===============
