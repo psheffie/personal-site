@@ -261,17 +261,22 @@ h1, .h1 {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin: .2em;
 }
 h2, .h2 { 
-    font-size: 1.62rem; 
+    font-size: 1.2rem; 
     font-weight: 300;
     text-align: center;
+    color: var(--Colors-Slate-400);
+    text-transform: uppercase;
 }
 h3, .h3 { 
-    font-size: 1.19rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal; 
+    color: var(--Colors-Slate-400);
+    margin: 0;
 }
 h4, .h4 { 
     font-size: 0.88rem; 
@@ -315,7 +320,7 @@ Layout
 ================== */
 
 body {
-    background: linear-gradient(45deg, var(--Colors-Slate-950) 0%, var(--Colors-Slate-800) 35%,var(--Colors-Slate-800) 100%);
+    background: linear-gradient(45deg, var(--Colors-Slate-950) 0%, var(--Colors-Slate-800) 40%, var(--Colors-Slate-800) 70%, var(--Colors-Slate-900) 90%, var(--Colors-Slate-800) 100%);
 }
 
 html, body {
@@ -325,8 +330,8 @@ html, body {
     font-family: 'Rubik', sans-serif;
     user-select: none;
     margin: 0;
-    padding: 1.375em 0.625em;
-    gap: 2.75em;
+    padding: 3em 0.625em;
+    gap: 1.75em;
     color: var(--Colors-Slate-200);
 }
 
@@ -334,7 +339,6 @@ header {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 0;
 }
 
 main {
@@ -348,7 +352,7 @@ main {
 section {
     display: flex;
     flex-direction: column;
-    padding: 3em 3em;
+    padding: 3em 0;
     gap: 1em;
 }
 
@@ -461,7 +465,11 @@ Components
     flex-direction: row;    
     }
 
-
+a {
+    display:inline-block;
+    width:100%;
+    height:100%;
+}
 
     .card {
             display: flex;
@@ -481,7 +489,7 @@ Components
     }
 
     .single {
-        width: 690px;
+        width: 800px;
         display: flex;
         flex-direction: column;
         align-items: start;
