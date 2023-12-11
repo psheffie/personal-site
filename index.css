@@ -257,21 +257,21 @@ Typography
 
 h1, .h1 { 
     color: var(--Colors-Slate-100);
-    font-size: 2.44rem; 
+    font-size: 4rem; 
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     line-height: normal;
     margin: .1em;
 }
 h2, .h2 { 
-    font-size: 1.2rem; 
+    font-size: 1.5rem; 
     font-weight: 300;
     text-align: center;
     color: var(--Colors-Slate-400);
     text-transform: uppercase;
 }
 h3, .h3 { 
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal; 
@@ -282,14 +282,14 @@ h4, .h4 {
     font-size: 0.88rem; 
 }
 h5 {
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     font-weight: 300;
     color: var(--Colors-Slate-100);
     line-height: 2rem;
     margin-bottom: .5em;
 }
 p, .p  { 
-    font-size: 1rem; 
+    font-size: 1.125rem; 
     font-style: normal;
     font-weight: 300;
     line-height: 1.625rem; /* 130% */
@@ -307,22 +307,21 @@ main > p {
     font-weight: 500;
 }
 .subtext {
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 200;
     color: var(--Colors-Slate-400);
     line-height: 1.4rem;
+}
+
+.title {
+    text-align: center;
 }
 
 /* ===============
 Images
 ================== */
 
-.img-profile {
-    width: 126px;
-    height: 126px;
-    border-radius: 50%;
-    padding: 1.4em;
-}
+
 
 /* ===============
 Layout
@@ -346,8 +345,31 @@ html, body {
 
 header {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+}
+
+.header-bg {   
+    width: 10rem;
+    height: 10rem;
+    background: url(./assets/image_phil-sheffield.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.intro {
+    width: 900px;
+    border: 1px solid white;
+    backdrop-filter: blur(75px);
+}
+
+
+.img-profile {
+    width: 126px;
+    height: 126px;
+    border-radius: 50%;
+    padding: 1.4em;
 }
 
 main {
