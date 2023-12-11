@@ -257,21 +257,21 @@ Typography
 
 h1, .h1 { 
     color: var(--Colors-Slate-100);
-    font-size: 4rem; 
-    font-style: normal;
+    font-size: 2.44rem;
     font-weight: 400;
+    font-style: normal;
     line-height: normal;
     margin: .1em;
 }
 h2, .h2 { 
-    font-size: 1.5rem; 
+    font-size: 1.2rem; 
     font-weight: 300;
     text-align: center;
     color: var(--Colors-Slate-400);
     text-transform: uppercase;
 }
 h3, .h3 { 
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal; 
@@ -366,7 +366,7 @@ header {
 
 .background-slice {
     background: linear-gradient(45deg, var(--Colors-Slate-950) 0%, var(--Colors-Slate-800) 40%, var(--Colors-Slate-800) 70%, var(--Colors-Slate-900) 90%, var(--Colors-Slate-800) 100%);
-    padding: 50px;
+    padding: 50px 10px;
     backdrop-filter: blur(10px);
     border-radius: 20px;
     margin-top: 80px;
@@ -502,10 +502,28 @@ Components
         width: 800px;
     }
 
+    h1, .h1 {
+        font-size: 4rem; 
+    }
+    h2, .h2 { 
+        font-size: 1.5rem; 
+    }
+    h3, .h3 { 
+        font-size: 1.5rem;
+    }
+    h5, .h5 {
+        font-size: 1.35rem;
+    }
     .separator {
         align-items: center;
     }
+    p, .p {
+        font-size: 1rem;
+    }
 
+    .background-slice {
+        padding: 50px;
+    }
    .cards {
     display: flex;
     flex-direction: row;    
