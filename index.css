@@ -348,6 +348,7 @@ header {
     flex-direction: column;
     align-items: center;
     z-index: 2;
+    margin-top: 20px;
 }
 
 .header-bg {   
@@ -359,7 +360,7 @@ header {
     z-index: 0;
     position: absolute;
     filter: blur(80px);
-    transform: translateY(-300px);
+    top: -200px;
     opacity: 90%;
 }
 
@@ -376,7 +377,6 @@ header {
     height: 126px;
     border-radius: 50%;
     z-index: 3;
-    transform: translate(-50px, -20px);
     position: absolute;
     box-shadow: 0px 4px 6px 0px #00000079;
 }
@@ -420,7 +420,7 @@ Components
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 }
 
 .stat--stack {
@@ -495,7 +495,37 @@ Components
     list-style-type: none;
   }
 
-
+/* ====== animations    */
+    .fade-in {
+        opacity:0.4;
+        transform: translateY(20%);
+        transition: all 0.3s ease-in-out 0s;
+    }
+    .fade-delay-1 {
+        opacity:0;
+        transform: translateY(20%);
+        transition: all 0.3s ease-in-out .1s;
+    }
+    .fade-delay-2 {
+        opacity:0;
+        transform: translateY(20%);
+        transition: all 0.3s ease-in-out .2s;
+    }
+    .fade-section {
+        opacity:0;
+        transform: translateY(5%);
+        transition: all 0.2s ease-in-out 0s;
+    }
+    .fade-bg {
+        opacity:0;
+        transform: translateY(0);
+        transition: all .5s ease-in-out 0s;
+    }
+    .active {
+        opacity: 1;
+        transform: translateY(0);
+    }
+/* media queries for desktop */
   @media (min-width: 799px) {
     body {
         width: 800px;
@@ -530,6 +560,7 @@ Components
 
     .statistics {
         padding-bottom: 4em;
+        padding-top: 2em;
     }
 
     a {
