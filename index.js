@@ -1,4 +1,4 @@
-const elements = document.querySelectorAll('.fade-in-scroll,.fade-delay-1-scroll,.fade-delay-2-scroll,.fade-section-scroll,');
+const elements = document.querySelectorAll('.fade-in-scroll,.fade-delay-1-scroll,.fade-delay-2-scroll,.fade-section-scroll');
 const options = {
   root: null,
   rootMargin: '0px',
