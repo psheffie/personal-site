@@ -339,7 +339,6 @@ html, body {
     user-select: none;
     margin: 0;
     padding: 3em 0.625em;
-    gap: 1.75em;
     color: var(--Colors-Slate-200);
     
 }
@@ -365,9 +364,8 @@ header {
 }
 
 .background-slice {
-    background: linear-gradient(45deg, var(--Colors-Slate-950) 0%, var(--Colors-Slate-800) 40%, var(--Colors-Slate-800) 70%, var(--Colors-Slate-900) 90%, var(--Colors-Slate-800) 100%);
-    padding: 50px 10px;
-    backdrop-filter: blur(10px);
+    padding: 40px 10px 10px 10px;
+    backdrop-filter: blur(100px);
     border-radius: 20px;
     margin-top: 80px;
 }
@@ -387,7 +385,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding: 1.5rem;
+    padding: 1.5rem 1.5rem 0rem 1.5rem;
     gap: 0.625rem;
     border-radius: 0.625rem;
 }
@@ -396,8 +394,8 @@ section {
     display: flex;
     flex-direction: column;
     padding: 3em 0;
-    gap: 1em;
 }
+
 
 /* ===============
 Components
@@ -422,6 +420,7 @@ Components
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    padding-bottom: 2em;
 }
 
 .stat--stack {
@@ -522,18 +521,22 @@ Components
     }
 
     .background-slice {
-        padding: 50px;
+        padding: 50px 50px 0px 50px;
     }
    .cards {
     display: flex;
     flex-direction: row;    
     }
 
-a {
-    display:inline-block;
-    width:100%;
-    height:100%;
-}
+    .statistics {
+        padding-bottom: 4em;
+    }
+
+    a {
+        display:inline-block;
+        width:100%;
+        height:100%;
+    }
 
     .card {
             display: flex;
