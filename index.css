@@ -504,12 +504,12 @@ Components
     .fade-delay-1-scroll {
         opacity:0;
         transform: translateY(20%);
-        transition: all 0.3s ease-in-out .1s;
+        transition: all 0.3s ease-in-out .8s;
     }
     .fade-delay-2-scroll {
         opacity:0;
         transform: translateY(20%);
-        transition: all 0.3s ease-in-out .2s;
+        transition: all 0.3s ease-in-out 1.2s;
     }
     .fade-section-scroll {
         opacity:0;
@@ -524,8 +524,8 @@ Components
 
     .fade-delay-1 {
         opacity:0;
-        transform: translateY(20%);
-        animation: flash .2s ease-in .1s 1 normal both ;
+        transform: translateY(5%);
+        animation: transform .8s ease-in 1.2s 1 normal both ;
     }
     .fade-delay-2 {
         opacity:0;
@@ -545,7 +545,7 @@ Components
     .fade-in {
         opacity:0;
         transform: translateY(05%);
-        animation: transform .2s ease-in 0s 1 normal both ;
+        animation: transform .6s ease-in 0s 1 normal both ;
     }
 @keyframes transform {
     100% {transform: translateY(0); opacity: 1; }
