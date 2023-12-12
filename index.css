@@ -544,7 +544,7 @@ Components
     }
     .fade-in {
         opacity:0;
-        transform: translateY(20%);
+        transform: translateY(05%);
         animation: transform .2s ease-in 0s 1 normal both ;
     }
 @keyframes transform {
