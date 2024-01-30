@@ -146,6 +146,14 @@
                 <img src="./assets/img_thumbnail_billing.png" alt="">
                 <div class="text-sm font-normal text-slate-200 pb-4">Usage Based Billing</div>
             </button>
+            <button onClick='showDialog5()' class="md:w-5/12 rounded-lg fade-in-scroll transition-all duration-300 ease-in-out bg-slate-800 hover:bg-slate-700 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                <img src="./assets/img_thumbnail_box-notes.png" alt="">
+                <div class="text-sm font-normal text-slate-200 pb-4">Box Notes</div>
+            </button>
+            <button onClick='showDialog6()' class="md:w-5/12 rounded-lg fade-in-scroll transition-all duration-300 ease-in-out bg-slate-800 hover:bg-slate-700 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                <img src="./assets/img_thumbnail_admin.png" alt="">
+                <div class="text-sm font-normal text-slate-200 pb-4">Box Admin</div>
+            </button>
             <p class="text-sm font-light leading-1 text-slate-300">Full portfolio available Upon Request. Email
                 <a href="mailto:phil@sheffieldesign.com">phil@sheffieldesign.com</a></p>
     </section>
@@ -304,8 +312,8 @@
         </div> 
         <div class="content-scroll w-full ">
             <div class="flex-col justify-center text-left m-auto p-16  max-w-5xl "> 
-                <div class="font-medium text-4xl">From MemSQL to SingleStore </div>
-                <img src="./assets/img_lg_brand_logo.png" alt="" class="my-8">                
+                <img src="./assets/img_lg_brand_logo.png" alt="" class="my-8">      
+                <div class="font-medium text-3xl">From MemSQL to SingleStore </div>          
                 <p class="font-light text-slate-200 mb-4 mt-2" > In 2021, we redefined our brand, transitioning from MemSQL to SingleStore. We aimed to achieve a multifaceted transformation. My team and I crafted a new logo that symbolizes our departure from a singular focus on in-memory storage (mem-sql) to a more versatile and all-encompassing data management solution. We established a new color palette and design language, aligning seamlessly with our vision for the future. 
                 </p>
                 <img src="./assets/img_lg_brand_website.png" alt="" class="my-8">  
@@ -322,8 +330,8 @@
         </div> 
         <div class="content-scroll w-full ">
             <div class="flex-col justify-center text-left m-auto p-16  max-w-5xl "> 
-                <div class="font-medium text-4xl">SingleStore's Fusion Design System </div>
-                <img src="./assets/img_lg_design-system.png" alt="" class="my-8">                
+                <img src="./assets/img_lg_design-system.png" alt="" class="my-8">   
+                <div class="font-medium text-3xl">SingleStore's Fusion Design System </div>             
                 <p class="font-light text-slate-200 mb-4 mt-2" > My team and I built out a design system from scratch to meet the needs of our cloud database service. Some of the unique patterns were around contextual help and data visualizations. 
 
                     We did it following these fundamental principles:
@@ -362,8 +370,8 @@
         </div> 
         <div class="content-scroll w-full ">
             <div class="flex-col justify-center text-left m-auto p-16  max-w-5xl "> 
-                <div class="font-medium text-4xl">Query Profiler </div>
-                <img src="./assets/img_lg_query-profile.png" alt="" class="my-8">                
+                <img src="./assets/img_lg_query-profile.png" alt="" class="my-8">   
+                <div class="font-medium text-3xl">Query Profiler </div>             
                 <p class="font-light text-slate-200 mb-4 mt-2" > 
                     The team and I were tasked with designing a query profiler to analyze and optimize the performance of SQL queries. It captures and presents detailed statistics on query execution, including metrics such as execution time, resource consumption, and row processing. The profiler dissects the query plan, revealing the steps taken by the database engine for data retrieval and processing. It also provides information on index usage efficiency and resource utilization metrics, such as CPU, memory, and disk I/O. Additionally, the tool can detect and report on blocking, deadlocks, and offers a historical analysis of query performance trends over time. Database administrators and developers utilize the insights provided by the query profiler to fine-tune queries, optimize schema design, and enhance overall system performance within the SingleStore database environment.
                 </p>
@@ -378,9 +386,39 @@
         </div> 
         <div class="content-scroll w-full ">
             <div class="flex-col justify-center text-left m-auto p-16  max-w-5xl "> 
-                <div class="font-medium text-4xl">Usage Based Billing</div>
-                <img src="./assets/img_lg_billing.png" alt="" class="my-8">                
+                <img src="./assets/img_lg_billing.png" alt="" class="my-8">         
+                <div class="font-medium text-3xl">Usage Based Billing</div>       
                 <p class="font-light text-slate-200 mb-4 mt-2" > The pricing model for SingleStore DB was based on credits and paying on demand. It was somewhat complicated to describe how credits work. They allow a customer to prepay for specific usage and apply that across different computing usages that could vary by region and computing resource. In addition to that, storage was billed separately at a fixed rate. The design shown above shows the separation of these fees and the subsequent breakdown of costs. The billing process was very complicated on the backend, so this interface had many edge cases and design limitations to work around. 
+                </p>
+                <!-- <br><br>
+                <button onClick='showDialog2()'>Show Dialog Two >></button> -->
+            </div>
+        </div>
+    </div>   
+    <div id='dialog5' class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 flex scale-in">
+        <div class="absolute">
+            <button onClick='closeDialog()' class="bg-slate-800 bg-opacity-0 text-slate-400 text-4xl font-light text-center rounded-full w-16 h-16 relative z-10  -right-4 top-4 transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">×</button>
+        </div> 
+        <div class="content-scroll w-full ">
+            <div class="flex-col justify-center text-left m-auto p-16  max-w-5xl "> 
+                <img src="./assets/img_lg_box-notes.png" alt="" class="my-8">       
+                <div class="font-medium text-3xl">Box Notes</div>         
+                <p class="font-light text-slate-200 mb-4 mt-2" > My team and I designed Notes to be the first stand alone application built on the Box platform. As a content creation tool it enables people with in large and small companies to quickly take notes, share ideas and collaborate, all in real-time.
+                </p>
+                <!-- <br><br>
+                <button onClick='showDialog2()'>Show Dialog Two >></button> -->
+            </div>
+        </div>
+    </div>   
+    <div id='dialog6' class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 flex scale-in">
+        <div class="absolute">
+            <button onClick='closeDialog()' class="bg-slate-800 bg-opacity-0 text-slate-400 text-4xl font-light text-center rounded-full w-16 h-16 relative z-10  -right-4 top-4 transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">×</button>
+        </div> 
+        <div class="content-scroll w-full ">
+            <div class="flex-col justify-center text-left m-auto p-16  max-w-5xl "> 
+                <img src="./assets/img_lg_box-admin.png" alt="" class="my-8">       
+                <div class="font-medium text-3xl">Box Admin Console</div>         
+                <p class="font-light text-slate-200 mb-4 mt-2" > I was tasked with overhauling the most powerful, yet complicated feature set that Box offers for large enteprises in the form of the adminsitrative console. It enables companies to manage thousands of users and millions of files all in one web interface
                 </p>
                 <!-- <br><br>
                 <button onClick='showDialog2()'>Show Dialog Two >></button> -->
