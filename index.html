@@ -138,8 +138,16 @@
                 <img src="./assets/img_thumbnail_design-system.png" alt="">
                 <div class="text-sm font-normal text-slate-200 pb-4">Fusion Design System</div>
             </button>
-                        <p class="text-sm font-light leading-1 text-slate-300">Full portfolio available Upon Request. Email
-                            <a href="mailto:phil@sheffieldesign.com">phil@sheffieldesign.com</a></p>
+            <button onClick='showDialog3()' class="md:w-5/12 rounded-lg fade-in-scroll transition-all duration-300 ease-in-out bg-slate-800 hover:bg-slate-700 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                <img src="./assets/img_thumbnail_query-profile.png" alt="">
+                <div class="text-sm font-normal text-slate-200 pb-4">Query Profiler</div>
+            </button>
+            <button onClick='showDialog4()' class="md:w-5/12 rounded-lg fade-in-scroll transition-all duration-300 ease-in-out bg-slate-800 hover:bg-slate-700 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                <img src="./assets/img_thumbnail_billing.png" alt="">
+                <div class="text-sm font-normal text-slate-200 pb-4">Usage Based Billing</div>
+            </button>
+            <p class="text-sm font-light leading-1 text-slate-300">Full portfolio available Upon Request. Email
+                <a href="mailto:phil@sheffieldesign.com">phil@sheffieldesign.com</a></p>
     </section>
         <section class="w-full">
             <h2
@@ -347,7 +355,38 @@
                 <button onClick='showDialog1()'>Show Dialog Two >></button> -->
             </div>
         </div>
-    </div>    
+    </div>   
+    <div id='dialog3' class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 flex scale-in">
+        <div class="absolute">
+            <button onClick='closeDialog()' class="bg-slate-800 bg-opacity-0 text-slate-400 text-4xl font-light text-center rounded-full w-16 h-16 relative z-10  -right-4 top-4 transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">×</button>
+        </div> 
+        <div class="content-scroll w-full ">
+            <div class="flex-col justify-center text-left m-auto p-16  max-w-5xl "> 
+                <div class="font-medium text-4xl">Query Profiler </div>
+                <img src="./assets/img_lg_query-profile.png" alt="" class="my-8">                
+                <p class="font-light text-slate-200 mb-4 mt-2" > 
+                    The team and I were tasked with designing a query profiler to analyze and optimize the performance of SQL queries. It captures and presents detailed statistics on query execution, including metrics such as execution time, resource consumption, and row processing. The profiler dissects the query plan, revealing the steps taken by the database engine for data retrieval and processing. It also provides information on index usage efficiency and resource utilization metrics, such as CPU, memory, and disk I/O. Additionally, the tool can detect and report on blocking, deadlocks, and offers a historical analysis of query performance trends over time. Database administrators and developers utilize the insights provided by the query profiler to fine-tune queries, optimize schema design, and enhance overall system performance within the SingleStore database environment.
+                </p>
+                <!-- <br><br>
+                <button onClick='showDialog2()'>Show Dialog Two >></button> -->
+            </div>
+        </div>
+    </div>   
+    <div id='dialog4' class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 flex scale-in">
+        <div class="absolute">
+            <button onClick='closeDialog()' class="bg-slate-800 bg-opacity-0 text-slate-400 text-4xl font-light text-center rounded-full w-16 h-16 relative z-10  -right-4 top-4 transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">×</button>
+        </div> 
+        <div class="content-scroll w-full ">
+            <div class="flex-col justify-center text-left m-auto p-16  max-w-5xl "> 
+                <div class="font-medium text-4xl">Usage Based Billing</div>
+                <img src="./assets/img_lg_billing.png" alt="" class="my-8">                
+                <p class="font-light text-slate-200 mb-4 mt-2" > The pricing model for SingleStore DB was based on credits and paying on demand. It was somewhat complicated to describe how credits work. They allow a customer to prepay for specific usage and apply that across different computing usages that could vary by region and computing resource. In addition to that, storage was billed separately at a fixed rate. The design shown above shows the separation of these fees and the subsequent breakdown of costs. The billing process was very complicated on the backend, so this interface had many edge cases and design limitations to work around. 
+                </p>
+                <!-- <br><br>
+                <button onClick='showDialog2()'>Show Dialog Two >></button> -->
+            </div>
+        </div>
+    </div>   
     <script src="index.js"></script>
 </body>
 
