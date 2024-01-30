@@ -30,6 +30,12 @@
         transform: translateY(0);
     }
     
+    .scale-in {
+        opacity:0;
+        transform: scale(0.9);
+        animation: transform .3s ease-in 0s 1 normal both ;
+    }
+
     .fade-in {
         opacity:0;
         transform: translateY(05%);
@@ -100,3 +106,5 @@
   ::-webkit-scrollbar-track {
     background: rgba(0, 0, 0, 0.2);
   }
+
+
