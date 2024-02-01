@@ -2,7 +2,7 @@ const elements = document.querySelectorAll('.fade-in-scroll,.fade-delay-1-scroll
 const options = {
   root: null,
   rootMargin: '0px',
-  threshold: .4
+  threshold: .8
 }
 const callbacks = (entries) => {
   entries.forEach(entry => {
