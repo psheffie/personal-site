@@ -30,6 +30,12 @@
         transition: all 0.2s ease-in-out 0s;
     }
 
+    .fade-in-simple {
+        opacity:0;
+        animation: transform .3s ease-in .2s 1 normal both ;
+    }
+
+
     .active {
         opacity: 1;
         transform: translateY(0);
@@ -38,7 +44,7 @@
     .scale-in {
         opacity:0;
         transform: scale(0.9);
-        animation: transform .3s ease-in 0s 1 normal both ;
+        animation: transform .6s ease-in 0s 1 normal both ;
     }
 
     .fade-in {

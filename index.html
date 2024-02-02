@@ -201,7 +201,7 @@
                     <div class="text-xs font-light  text-slate-200 pt-2 tracking-wide text-slate-200 pb-4">Query
                         Profiler</div>
                 </button>
-                <button onClick='showDialog6()'
+                <button onClick='showDialog4()'
                     class="md:w-1/4 w-1/3 rounded-lg fade-in-scroll pt-4 transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
                     <img src="./assets/img_thumbnail_admin.svg" alt="">
                     <div class="text-xs font-light  text-slate-200 pt-2 tracking-wide text-slate-200 pb-4">Box Admin
@@ -213,7 +213,7 @@
                     <div class="text-xs font-light  text-slate-200 pt-2 tracking-wide text-slate-200 pb-4">Box Notes
                     </div>
                 </button>
-                <button onClick='showDialog4()'
+                <button onClick='showDialog6()'
                     class="md:w-1/4 w-1/3 rounded-lg fade-in-scroll pt-4 transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
                     <img src="./assets/img_thumbnail_billing.svg" alt="">
                     <div class="text-sm font-light  text-slate-200 pt-2 tracking-wide text-slate-200 pb-4">Usage Based
@@ -332,38 +332,330 @@
         </section>
     </div>
     <div id='dialog1'
-        class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 flex scale-in">
-        <div class="flex flex-col">
-            <button onClick='closeDialog()'
-                class="absolute bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light text-center rounded-full md:w-16 md:h-16 w-10 h-10 relative z-10  -right-4 top-4 transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">×</button>
-            <div class="flex flex-row content-scroll ">
-                <div class="flex mt-96 md:p-4">
-                    <button onClick='showDialog6()'
-                        class="flex  items-center justify-center  bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light text-center rounded-full md:w-16 md:h-16 w-4 h-40 relative transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">‹</button>
-                </div>
-                <div class="w-full ">
-                    <div class="flex-col justify-center text-left m-auto md:p-16 p-4 pt-16 pb-32  max-w-5xl ">
-                        <img src="./assets/img_lg_brand_website.png" alt="" class="my-8">
-                        <div class="font-medium text-3xl">From MemSQL to SingleStore </div>
-                        <p class="font-light text-slate-200 mb-4 mt-2"> In 2021, we redefined our brand, transitioning
-                            from MemSQL to SingleStore. We aimed to achieve a multifaceted transformation. My team and I
-                            crafted a new logo that symbolizes our departure from a singular focus on in-memory storage
-                            (mem-sql) to a more versatile and all-encompassing data management solution. We established
-                            a new color palette and design language, aligning seamlessly with our vision for the future.
+        class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 ">
+        <div class="w-full content-scroll fade-in-simple ">
+            <div class="flex flex-col m-auto md:p-16 p-4 pt-16 max-w-6xl pb-32">
+                <img src="./assets/img_lg_brand_website.png" alt="" class="scale-in">
+                <div class="font-medium text-3xl md:mx-16 mx-4 mt-16">From MemSQL to SingleStore </div>
+                <div class="flex flex-col md:flex-row gap-8 md:mx-16 mx-4 ">
+
+                    <div class="flex flex-col">
+
+                        <p class="font-light text-slate-300 mb-4 mt-2"> Prior to 2021 our company name was MemSQl, which
+                            put a singular focus on in-memory
+                            storage (mem-sql). This was causing us to lose deals because we would never be considered
+                            for large use cases and would fall into the category of niche database for may customers.
                         </p>
-                        <p class="font-light text-slate-200 mb-4 mt-2"> The revamped website and application, shaped by
+                        <div class="font-medium text-xl">Solution </div>
+                        <p class="font-light text-slate-300 mb-4 mt-2"> We redefined our brand,
+                            transitioning
+                            from MemSQL to SingleStore. A versatile and all-encompassing data management solution. We
+                            established
+                            a new color palette and design language, aligning seamlessly with our vision for the
+                            future.
+                            The revamped website and application, shaped
+                            by
                             my team and I, was purpose-built to connect with the developer audience. We successfully
                             positioned SingleStore as a versatile and comprehensive data platform ready to meet the
                             evolving needs of our diverse user base.
                         </p>
                     </div>
-                </div>
-                <div class="flex mt-96 md:p-4">
-                    <button onClick='showDialog2()'
-                        class="flex  items-center justify-center  bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light text-center rounded-full md:w-16 md:h-16 w-4 h-40 relative transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">›</button>
+                    <div class="flex flex-col">
+                        <div class="font-medium text-l ">Role</div>
+                        <p class="font-light text-sm text-slate-400 mb-4 mt-2"> Design Manager, Product Manager
+                        </p>
+                        <div class="font-medium text-l">Team </div>
+                        <p class="font-light text-sm text-slate-400 mb-4 mt-2"> This was a true collaboration between
+                            marketing, product management, brand design, product design and the exec team. The Design
+                            Lead for this was Alex Moore.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="absolute w-full ">
+            <button onClick='closeDialog()'
+                class=" bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light text-center rounded-full md:w-16 md:h-16 w-10 h-10  m-4 transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">×</button>
+            <div class="flex flex-row justify-between pt-64">
+                <button onClick='showDialog6()'
+                    class=" flex items-center justify-center m-4 md:w-16 md:h-16 w-4 h-40 bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light rounded-full transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">‹</button>
+                <button onClick='showDialog2()'
+                    class=" flex items-center justify-center m-4 md:w-16 md:h-16 w-4 h-40 bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light rounded-full transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">›</button>
+            </div>
+        </div>
+    </div>
+    <div id='dialog2'
+        class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 ">
+        <div class="w-full content-scroll fade-in-simple ">
+            <div class="flex flex-col m-auto md:p-16 p-4 pt-16 max-w-6xl pb-32">
+                <img src="./assets/img_lg_design-system.png" alt="" class="scale-in">
+                <div class="font-medium text-3xl md:mx-16 mx-4 mt-16">SingleStore's Fusion Design System </div>
+                <div class="flex flex-col md:flex-row gap-8 md:mx-16 mx-4 ">
+
+                    <div class="flex flex-col">
+
+                        <p class="font-light text-slate-300 mb-4 mt-2"> My team and I built out a
+                            design system from
+                            scratch to meet the needs of our cloud database service. Some of the
+                            unique patterns were
+                            around contextual help and data visualizations. We did it following
+                            these fundamental
+                            principles:</p>
+                        <div class="flex flex-wrap md:justify-between font-light">
+                            <ul class="flex  md:w-5/12 flex-col ">
+                                <li class="font-medium mb-2 mt-4">Fast</li>
+                                <li class="text-slate-300">Ensure fast loading times by understanding the
+                                    limitations and
+                                    opportunities of the backend system that loads the front-end UI.
+                                </li>
+                                <li class="font-medium mb-2 mt-4">Repeatable</li>
+                                <li class="text-slate-300">Optimize the design for frequent tasks by anticipating users'
+                                    needs at key points
+                                    and loading that information or enabling those actions first in
+                                    an interface.</li>
+                                <li class="font-medium mb-2 mt-4">Consistent</li>
+                                <li class="text-slate-300">Things that look the same should function the same. Use
+                                    consistent design patterns,
+                                    uniform prompts, menus, and screens throughout the interface.
+                                </li>
+                            </ul>
+                            <ul class="flex  md:w-5/12 flex-col ">
+                                <li class="font-medium mb-2 mt-4">Informative</li>
+                                <li class="text-slate-300">Make it easy to recover from mistakes by providing informative
+                                    and timely feedback
+                                    to recognize, diagnose and fix errors.</li>
+                                <li class="font-medium mb-2 mt-4">Visual</li>
+                                <li class="text-slate-300">Use data visualizations and charts to help users understand
+                                    complex data to identify
+                                    patterns, get new insights to share with others and enable
+                                    data-driven decisions
+                                </li>
+                                <li class="font-medium mb-2 mt-4">Helpful</li>
+                                <li class="text-slate-300">Offer contextual help and tutorials to enable new users to
+                                    become experts. Provide
+                                    shortcuts and macros for frequent users to speed up their work.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="font-medium text-l ">Role</div>
+                        <p class="font-light text-sm text-slate-400 mb-4 mt-2"> Lead Designer
+                        </p>
+                        <div class="font-medium text-l">Team </div>
+                        <p class="font-light text-sm text-slate-400 mb-4 mt-2"> I collaborated with the other product designers on this, as well as design system engineer, Kia Storm. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute w-full ">
+            <button onClick='closeDialog()'
+                class=" bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light text-center rounded-full md:w-16 md:h-16 w-10 h-10  m-4 transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">×</button>
+            <div class="flex flex-row justify-between pt-64">
+                <button onClick='showDialog1()'
+                    class=" flex items-center justify-center m-4 md:w-16 md:h-16 w-4 h-40 bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light rounded-full transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">‹</button>
+                <button onClick='showDialog3()'
+                    class=" flex items-center justify-center m-4 md:w-16 md:h-16 w-4 h-40 bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light rounded-full transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">›</button>
+            </div>
+        </div>
+    </div>
+    <div id='dialog3'
+        class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 ">
+        <div class="w-full content-scroll fade-in-simple ">
+            <div class="flex flex-col m-auto md:p-16 p-4 pt-16 max-w-6xl pb-32">
+                <img src="./assets/img_lg_query-profile.png" alt="" class="scale-in">
+                <div class="font-medium text-3xl md:mx-16 mx-4 mt-16">Query Profiler </div>
+                <div class="flex flex-col md:flex-row gap-8 md:mx-16 mx-4 ">
+
+                    <div class="flex flex-col w-2/3">
+
+                        <p class="font-light text-slate-300 mb-4 mt-2"> SingleStore was a fast database, but it's only if the user is able to write queries that don't have errors or performance issues. To enable customers to get better performance we introducted the query profiler. 
+                        </p>
+                        <div class="font-medium text-xl">Solution </div>
+                        <p class="font-light text-slate-300 mb-4 mt-2"> It captures and presents detailed
+                            statistics on
+                            query execution, including metrics such as execution time, resource
+                            consumption, and
+                            row processing. The profiler dissects the query plan, revealing the
+                            steps taken by
+                            the database engine for data retrieval and processing. It also provides
+                            information
+                            on index usage efficiency and resource utilization metrics, such as CPU,
+                            memory, and
+                            disk I/O. Additionally, the tool can detect and report on blocking,
+                            deadlocks, and
+                            offers a historical analysis of query performance trends over time.
+                            Database
+                            administrators and developers utilize the insights provided by the query
+                            profiler to
+                            fine-tune queries, optimize schema design, and enhance overall system
+                            performance
+                            within the SingleStore database environment.
+                        </p>
+                    </div>
+                    <div class="flex flex-col w-1/3">
+                        <div class="font-medium text-l ">Role</div>
+                        <p class="font-light text-sm text-slate-400 mb-4 mt-2"> Design Manager
+                        </p>
+                        <div class="font-medium text-l">Team </div>
+                        <p class="font-light text-sm text-slate-400 mb-4 mt-2"> I collaborated with the designer on my team who was dedicated, Haochen Zhang. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute w-full ">
+            <button onClick='closeDialog()'
+                class=" bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light text-center rounded-full md:w-16 md:h-16 w-10 h-10  m-4 transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">×</button>
+            <div class="flex flex-row justify-between pt-64">
+                <button onClick='showDialog2()'
+                    class=" flex items-center justify-center m-4 md:w-16 md:h-16 w-4 h-40 bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light rounded-full transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">‹</button>
+                <button onClick='showDialog4()'
+                    class=" flex items-center justify-center m-4 md:w-16 md:h-16 w-4 h-40 bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light rounded-full transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">›</button>
+            </div>
+        </div>
+    </div>
+    <div id='dialog6'
+        class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 ">
+        <div class="w-full content-scroll fade-in-simple ">
+            <div class="flex flex-col m-auto md:p-16 p-4 pt-16 max-w-6xl pb-32">
+                <img src="./assets/img_lg_billing.png" alt="" class="scale-in">
+                <div class="font-medium text-3xl md:mx-16 mx-4 mt-16">Usage Based Billing </div>
+                <div class="flex flex-col md:flex-row gap-8 md:mx-16 mx-4 ">
+
+                    <div class="flex flex-col">
+
+                        <p class="font-light text-slate-300 mb-4 mt-2"> The pricing model for
+                            SingleStore DB was
+                            based on credits and paying on demand. It was somewhat complicated to
+                            describe how
+                            credits work. They allow a customer to prepay for specific usage and
+                            apply that
+                            across different computing usages that could vary by region and
+                            computing resource.
+                            In addition to that, storage was billed separately at a fixed rate. 
+                        </p>
+                        <div class="font-medium text-xl">Solution </div>
+                        <p class="font-light text-slate-300 mb-4 mt-2"> The
+                            design shown
+                            above shows the separation of these fees and the subsequent breakdown of
+                            costs. The
+                            billing process was very complicated on the backend, so this interface
+                            had many edge
+                            cases and design limitations to work around.
+                        </p>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="font-medium text-l ">Role</div>
+                        <p class="font-light text-sm text-slate-400 mb-4 mt-2"> Lead Designer
+                        </p>
+                        <div class="font-medium text-l">Team </div>
+                        <p class="font-light text-sm text-slate-400 mb-4 mt-2"> I collaborated with our backend and product management teams.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute w-full ">
+            <button onClick='closeDialog()'
+                class=" bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light text-center rounded-full md:w-16 md:h-16 w-10 h-10  m-4 transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">×</button>
+            <div class="flex flex-row justify-between pt-64">
+                <button onClick='showDialog5()'
+                    class=" flex items-center justify-center m-4 md:w-16 md:h-16 w-4 h-40 bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light rounded-full transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">‹</button>
+                <button onClick='showDialog1()'
+                    class=" flex items-center justify-center m-4 md:w-16 md:h-16 w-4 h-40 bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light rounded-full transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">›</button>
+            </div>
+        </div>
+    </div>
+    <div id='dialog5'
+        class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 ">
+        <div class="w-full content-scroll fade-in-simple ">
+            <div class="flex flex-col m-auto md:p-16 p-4 pt-16 max-w-6xl pb-32">
+                <img src="./assets/img_lg_box-notes.png" alt="" class="scale-in">
+                <div class="font-medium text-3xl md:mx-16 mx-4 mt-16">Box Notes</div>
+                <div class="flex flex-col md:flex-row gap-8 md:mx-16 mx-4 ">
+
+                    <div class="flex flex-col">
+
+                        <p class="font-light text-slate-300 mb-4 mt-2"> The Box platform had many integrations, but no true productivity tools that really engaged the user and helped them in their daily workflows.
+                        </p>
+                        <div class="font-medium text-xl">Solution </div>
+                        <p class="font-light text-slate-300 mb-4 mt-2"> 
+                            My team and I designed Notes
+                            to be the
+                            first stand alone application built on the Box platform. As a content
+                            creation tool
+                            it enables people with in large and small companies to quickly take
+                            notes, share
+                            ideas and collaborate, all in real-time. This also encorporated a mobile experience. 
+                        </p>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="font-medium text-l ">Role</div>
+                        <p class="font-light text-sm text-slate-400 mb-4 mt-2"> Design Lead
+                        </p>
+                        <div class="font-medium text-l">Team </div>
+                        <p class="font-light text-sm text-slate-400 mb-4 mt-2"> I was partnered with a great product manager, Jonathan Berger, and great engineering team.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute w-full ">
+            <button onClick='closeDialog()'
+                class=" bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light text-center rounded-full md:w-16 md:h-16 w-10 h-10  m-4 transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">×</button>
+            <div class="flex flex-row justify-between pt-64">
+                <button onClick='showDialog4()'
+                    class=" flex items-center justify-center m-4 md:w-16 md:h-16 w-4 h-40 bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light rounded-full transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">‹</button>
+                <button onClick='showDialog6()'
+                    class=" flex items-center justify-center m-4 md:w-16 md:h-16 w-4 h-40 bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light rounded-full transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">›</button>
+            </div>
+        </div>
+    </div>
+    <div id='dialog4'
+        class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 ">
+        <div class="w-full content-scroll fade-in-simple ">
+            <div class="flex flex-col m-auto md:p-16 p-4 pt-16 max-w-6xl pb-32">
+                <img src="./assets/img_lg_box-admin.png" alt="" class="scale-in">
+                <div class="font-medium text-3xl md:mx-16 mx-4 mt-16">Box Admin Console
+                </div>
+                <div class="flex flex-col md:flex-row gap-8 md:mx-16 mx-4 ">
+
+                    <div class="flex flex-col">
+
+                        <p class="font-light text-slate-300 mb-4 mt-2"> Enterprise admins have a difficult job, ensuring that all their content (which can be terabytes of data) is secure and accessible by internal employees. 
+                        </p>
+                        <div class="font-medium text-xl">Solution </div>
+                        <p class="font-light text-slate-300 mb-4 mt-2"> To enable admins to understand all the complicated features and controls that Box offers for large enterprises.
+                            I helped design the experience to give them full visibility into how content is being accessed, shared, and used both within and beyond their organization.
+                        </p>
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="font-medium text-l ">Role</div>
+                        <p class="font-light text-sm text-slate-400 mb-4 mt-2"> Design Manager,
+                            Designer
+                        </p>
+                        <div class="font-medium text-l">Team </div>
+                        <p class="font-light text-sm text-slate-400 mb-4 mt-2"> I collaborated with a lead designer on this project, and contributed directly to certain features. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute w-full ">
+            <button onClick='closeDialog()'
+                class=" bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light text-center rounded-full md:w-16 md:h-16 w-10 h-10  m-4 transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">×</button>
+            <div class="flex flex-row justify-between pt-64">
+                <button onClick='showDialog3()'
+                    class=" flex items-center justify-center m-4 md:w-16 md:h-16 w-4 h-40 bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light rounded-full transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">‹</button>
+                <button onClick='showDialog5()'
+                    class=" flex items-center justify-center m-4 md:w-16 md:h-16 w-4 h-40 bg-slate-900/70 text-slate-400 md:text-4xl text-2xl font-light rounded-full transition-all duration-300 ease-in-out bg-slate-800 hover:text-slate-100 hover:bg-slate-700 active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">›</button>
+            </div>
+        </div>
+
+
+    </div>
     </div>
     <div id='dialog2'
         class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 flex scale-in">
@@ -379,33 +671,47 @@
                     <div class="flex-col justify-center text-left m-auto md:p-16 p-4 pt-16 pb-32  max-w-5xl ">
                         <img src="./assets/img_lg_design-system.png" alt="" class="my-8">
                         <div class="font-medium text-3xl">SingleStore's Fusion Design System </div>
-                        <p class="font-light text-slate-200 mb-4 mt-2"> My team and I built out a design system from
-                            scratch to meet the needs of our cloud database service. Some of the unique patterns were
-                            around contextual help and data visualizations. We did it following these fundamental
+                        <p class="font-light text-slate-200 mb-4 mt-2"> My team and I built out a
+                            design system from
+                            scratch to meet the needs of our cloud database service. Some of the
+                            unique patterns were
+                            around contextual help and data visualizations. We did it following
+                            these fundamental
                             principles:</p>
                         <div class="flex flex-wrap md:justify-between m-4 pt-8 font-light">
                             <ul class="flex  md:w-5/12 flex-col ">
                                 <li class="font-medium mb-2 mt-4">Fast</li>
-                                <li class="">Ensure fast loading times by understanding the limitations and
-                                    opportunities of the backend system that loads the front-end UI.</li>
+                                <li class="">Ensure fast loading times by understanding the
+                                    limitations and
+                                    opportunities of the backend system that loads the front-end UI.
+                                </li>
                                 <li class="font-medium mb-2 mt-4">Repeatable</li>
-                                <li>Optimize the design for frequent tasks by anticipating users' needs at key points
-                                    and loading that information or enabling those actions first in an interface.</li>
+                                <li>Optimize the design for frequent tasks by anticipating users'
+                                    needs at key points
+                                    and loading that information or enabling those actions first in
+                                    an interface.</li>
                                 <li class="font-medium mb-2 mt-4">Consistent</li>
-                                <li>Things that look the same should function the same. Use consistent design patterns,
-                                    uniform prompts, menus, and screens throughout the interface.</li>
+                                <li>Things that look the same should function the same. Use
+                                    consistent design patterns,
+                                    uniform prompts, menus, and screens throughout the interface.
+                                </li>
                             </ul>
                             <ul class="flex  md:w-5/12 flex-col ">
                                 <li class="font-medium mb-2 mt-4">Informative</li>
-                                <li>Make it easy to recover from mistakes by providing informative and timely feedback
+                                <li>Make it easy to recover from mistakes by providing informative
+                                    and timely feedback
                                     to recognize, diagnose and fix errors.</li>
                                 <li class="font-medium mb-2 mt-4">Visual</li>
-                                <li>Use data visualizations and charts to help users understand complex data to identify
-                                    patterns, get new insights to share with others and enable data-driven decisions
+                                <li>Use data visualizations and charts to help users understand
+                                    complex data to identify
+                                    patterns, get new insights to share with others and enable
+                                    data-driven decisions
                                 </li>
                                 <li class="font-medium mb-2 mt-4">Helpful</li>
-                                <li>Offer contextual help and tutorials to enable new users to become experts. Provide
-                                    shortcuts and macros for frequent users to speed up their work.</li>
+                                <li>Offer contextual help and tutorials to enable new users to
+                                    become experts. Provide
+                                    shortcuts and macros for frequent users to speed up their work.
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -432,16 +738,26 @@
                         <img src="./assets/img_lg_query-profile.png" alt="" class="my-8">
                         <div class="font-medium text-3xl">Query Profiler </div>
                         <p class="font-light text-slate-200 mb-4 mt-2">
-                            The team and I were tasked with designing a query profiler to analyze and optimize
-                            the performance of SQL queries. It captures and presents detailed statistics on
-                            query execution, including metrics such as execution time, resource consumption, and
-                            row processing. The profiler dissects the query plan, revealing the steps taken by
-                            the database engine for data retrieval and processing. It also provides information
-                            on index usage efficiency and resource utilization metrics, such as CPU, memory, and
-                            disk I/O. Additionally, the tool can detect and report on blocking, deadlocks, and
-                            offers a historical analysis of query performance trends over time. Database
-                            administrators and developers utilize the insights provided by the query profiler to
-                            fine-tune queries, optimize schema design, and enhance overall system performance
+                            The team and I were tasked with designing a query profiler to analyze
+                            and optimize
+                            the performance of SQL queries. It captures and presents detailed
+                            statistics on
+                            query execution, including metrics such as execution time, resource
+                            consumption, and
+                            row processing. The profiler dissects the query plan, revealing the
+                            steps taken by
+                            the database engine for data retrieval and processing. It also provides
+                            information
+                            on index usage efficiency and resource utilization metrics, such as CPU,
+                            memory, and
+                            disk I/O. Additionally, the tool can detect and report on blocking,
+                            deadlocks, and
+                            offers a historical analysis of query performance trends over time.
+                            Database
+                            administrators and developers utilize the insights provided by the query
+                            profiler to
+                            fine-tune queries, optimize schema design, and enhance overall system
+                            performance
                             within the SingleStore database environment.
                         </p>
                     </div>
@@ -467,13 +783,20 @@
                     <div class="flex-col justify-center text-left m-auto md:p-16 p-4 pt-16 pb-32  max-w-5xl ">
                         <img src="./assets/img_lg_billing.png" alt="" class="my-8">
                         <div class="font-medium text-3xl">Usage Based Billing</div>
-                        <p class="font-light text-slate-200 mb-4 mt-2"> The pricing model for SingleStore DB was
-                            based on credits and paying on demand. It was somewhat complicated to describe how
-                            credits work. They allow a customer to prepay for specific usage and apply that
-                            across different computing usages that could vary by region and computing resource.
-                            In addition to that, storage was billed separately at a fixed rate. The design shown
-                            above shows the separation of these fees and the subsequent breakdown of costs. The
-                            billing process was very complicated on the backend, so this interface had many edge
+                        <p class="font-light text-slate-200 mb-4 mt-2"> The pricing model for
+                            SingleStore DB was
+                            based on credits and paying on demand. It was somewhat complicated to
+                            describe how
+                            credits work. They allow a customer to prepay for specific usage and
+                            apply that
+                            across different computing usages that could vary by region and
+                            computing resource.
+                            In addition to that, storage was billed separately at a fixed rate. The
+                            design shown
+                            above shows the separation of these fees and the subsequent breakdown of
+                            costs. The
+                            billing process was very complicated on the backend, so this interface
+                            had many edge
                             cases and design limitations to work around.
                         </p>
                     </div>
@@ -499,9 +822,12 @@
                     <div class="flex-col justify-center text-left m-auto md:p-16 p-4 pt-16 pb-32  max-w-5xl ">
                         <img src="./assets/img_lg_box-notes.png" alt="" class="my-8">
                         <div class="font-medium text-3xl">Box Notes</div>
-                        <p class="font-light text-slate-200 mb-4 mt-2"> My team and I designed Notes to be the
-                            first stand alone application built on the Box platform. As a content creation tool
-                            it enables people with in large and small companies to quickly take notes, share
+                        <p class="font-light text-slate-200 mb-4 mt-2"> My team and I designed Notes
+                            to be the
+                            first stand alone application built on the Box platform. As a content
+                            creation tool
+                            it enables people with in large and small companies to quickly take
+                            notes, share
                             ideas and collaborate, all in real-time.
                         </p>
                     </div>
@@ -527,9 +853,12 @@
                     <div class="flex-col justify-center text-left m-auto md:p-16 p-4 pt-16 pb-32  max-w-5xl ">
                         <img src="./assets/img_lg_box-admin.png" alt="" class="my-8">
                         <div class="font-medium text-3xl">Box Admin Console</div>
-                        <p class="font-light text-slate-200 mb-4 mt-2"> I was tasked with overhauling the most
-                            powerful, yet complicated feature set that Box offers for large enteprises in the
-                            form of the adminsitrative console. It enables companies to manage thousands of
+                        <p class="font-light text-slate-200 mb-4 mt-2"> I was tasked with
+                            overhauling the most
+                            powerful, yet complicated feature set that Box offers for large
+                            enteprises in the
+                            form of the adminsitrative console. It enables companies to manage
+                            thousands of
                             users and millions of files all in one web interface
                         </p>
                     </div>
