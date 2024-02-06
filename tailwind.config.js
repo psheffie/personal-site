@@ -1,8 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./public/*.{html,js,css}"],
   theme: {
-    extend: {},
+      fontFamily: {
+        'rubik': ['"Rubik"', 'sans-serif'],
+      },
   },
   plugins: [],
-}
+};
