@@ -2,30 +2,24 @@
 <html>
 
 <head>
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./assets/favicon/" />
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/favicon/apple-touch-icon-114x114.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/favicon/apple-touch-icon-72x72.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./assets/favicon/apple-touch-icon-144x144.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./assets/favicon/apple-touch-icon-60x60.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./assets/favicon/apple-touch-icon-120x120.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./assets/favicon/apple-touch-icon-76x76.png" />
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./assets/favicon/apple-touch-icon-152x152.png" />
-    <link rel="icon" type="image/png" href="./assets/favicon/favicon-196x196.png" sizes="196x196" />
-    <link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/png" href="./assets/favicon/favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="./assets/favicon/favicon-16x16.png" sizes="16x16" />
-    <link rel="icon" type="image/png" href="./assets/favicon/favicon-128.png" sizes="128x128" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/assets/favicon/" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="/assets/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/assets/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="/assets/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/assets/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-128.png" sizes="128x128" />
     <title>Phil Sheffield | Designer / Builder / Leader</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:wght@400;600;700&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:wght@300;600&family=Roboto:wght@300;400;500;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com/3.3.0"></script>
-    <link href="/dist/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WNF8QBVRZ8"></script>
     <script>
@@ -35,22 +29,9 @@
 
         gtag('config', 'G-WNF8QBVRZ8');
     </script>
-
-    <script>
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                fontFamily: {
-                    sans: ["Roboto", "sans-serif"],
-                    body: ["Roboto", "sans-serif"],
-                    mono: ["ui-monospace", "monospace"],
-                },
-            },
-            corePlugins: {
-                preflight: false,
-            },
-        };
-    </script>
+    <link rel="stylesheet" href="/public/styles.css">
+    <link rel="stylesheet" href="/public/custom.css">
+    <script src="/public/index.js"></script>
 </head>
 
 
@@ -60,23 +41,23 @@
     <div class="max-w-3xl">
         <header class="relative">
             <div
-                class="bg-[url('./assets/image_phil-sheffield.jpeg')] w-64 h-32 sm:w-full h-full z-0 absolute sm:opacity-50 opacity-30 blur-3xl bg-cover -mt-96 rounded-full">
+                class="bg-[url('/assets/image_phil-sheffield.jpeg')] w-24 h-32 sm:w-full h-full z-0 absolute sm:opacity-50 opacity-30 blur-3xl bg-cover -mt-96 rounded-full">
             </div>
             <div
-                class="flex items-center justify-center content-center pb-16 flex-col sm:flex-row mt-8 sm:mt-8 z-10 opacity-90">
-                <img src="./assets/image_phil-sheffield.jpeg" class="md:w-48 md:h-48 w-32 w-32 rounded-full fade-in">
+                class="flex items-center justify-center content-center pb-16 flex-col sm:flex-row mt-8 z-10 ">
+                <img src="/assets/image_phil-sheffield.jpeg" class="md:w-48 md:h-48 w-32 w-32 rounded-full fade-in">
                 <div class="sm:ml-8 mt-8 sm:mt-0 md:text-left">
-                    <h1 class="text-center sm:text-left md:text-7xl text-4xl fade-in text-slate-100 fade-in md:w-5/12">
-                        Phil Sheffield</h1>
+                    <h1 class=" text-center sm:text-left md:text-7xl text-4xl fade-in text-slate-100 fade-in md:w-5/12">
+                        Philip Sheffield</h1>
                     <h3 class="text-center sm:text-left text-2xl font-light text-slate-400"><span
-                            class="fade-delay-2">Designer</span> <span class="fade-delay-3">/ Builder </span><span
-                            class="fade-delay-4">/ Leader</span></h3>
+                            class="fade-delay-1">Designer</span> <span class="fade-delay-1-5">/ Builder </span><span
+                            class="fade-delay-3">/ Leader</span></h3>
                 </div>
             </div>
             <div class="relative rounded-2xl backdrop-blur-3xl bg-opacity-30 md:py-16 sm:p-8 p-4 pt-6 fade-in">
                 <div class="flex flex-col sm:flex-row mb-8 sm:mx-8 mx-2">
                     <div
-                        class="flex sm:flex-col md:flex-row sm:items-start sm:content-start sm:w-1/4 sm:mx-8 my-4 sm:my-0 md:mx-0 md:w-1/3 fade-delay-1 md:justify-center w-full">
+                        class="flex sm:flex-col md:flex-row sm:items-start sm:content-start sm:w-1/4 sm:mx-8 my-4 sm:my-0 md:mx-0 md:w-1/3 fade-in md:justify-center w-full">
                         <p class="sm:text-left text-5xl font-normal text-slate-100 ">20</p>
                         <div class="ml-2 sm:ml-0 md:ml-2">
                             <p class="text-l sm:mb-1 md:mb-0 font-medium text-slate-100">Years</p>
@@ -84,7 +65,7 @@
                         </div>
                     </div>
                     <div
-                        class="flex sm:flex-col md:flex-row items-center sm:items-start sm:content-start sm:w-1/4 sm:mx-8 md:mx-0 md:w-1/3 my-4 sm:my-0 fade-delay-2 md:justify-center w-full">
+                        class="flex sm:flex-col md:flex-row items-center sm:items-start sm:content-start sm:w-1/4 sm:mx-8 md:mx-0 md:w-1/3 my-4 sm:my-0 fade-delay-1-5 md:justify-center w-full">
                         <p class="sm:text-left text-5xl font-normal text-slate-100 ">15</p>
                         <div class="ml-2 sm:ml-0 md:ml-2">
                             <p class="text-l sm:mb-1 md:mb-0 font-medium text-slate-100">Years</p>
@@ -113,13 +94,13 @@
                 </main>
             </div>
         </header>
-        <section class="w-full">
-            <h2
-                class="fade-in-scroll border-t border-slate-600 p-8 text-center uppercase text-slate-300 antialiased tracking-wider text-lg  ">
+        <section class="w-full fade-delay-2">
+            <h2 
+                class="border-t border-slate-600 p-8 text-center uppercase text-slate-300 antialiased tracking-wider text-lg  ">
                 Experience </h2>
             <div class="flex flex-col pb-16  sm:px-8 ">
-                <div class="fade-in-scroll flex pb-8">
-                    <img src="./assets/logo_singlestore.svg" class="w-8 h-8 mr-4 mt-2 ml-4" />
+                <div class="  flex pb-8">
+                    <img src="/assets/logo_singlestore.svg" class="w-8 h-8 mr-4 mt-2 ml-4" />
                     <div>
                         <p class="text-lg font-medium">SingleStore</p>
                         <p class="text-sm font-light leading-1 text-slate-100 mb-2">Head of Design – 2016-2023</br>
@@ -130,8 +111,8 @@
                             systems, and analytics.</p>
                     </div>
                 </div>
-                <div class="fade-in-scroll flex pb-8">
-                    <img src="./assets/logo_box.svg" class="w-8 h-8 mr-4 mt-2 ml-4" />
+                <div class="  flex pb-8">
+                    <img src="/assets/logo_box.svg" class="w-8 h-8 mr-4 mt-2 ml-4" />
                     <div class="">
                         <p class="text-lg font-medium">Box</p>
                         <p class="text-sm font-light leading-1 text-slate-100 mb-2">Director of Product Design –
@@ -145,31 +126,31 @@
                     </div>
                 </div>
                 <div class="flex flex-wrap justify-between">
-                    <div class="fade-in-scroll md:w-5/12 flex pb-8">
-                        <img src="./assets/logo_fivetran.svg" class="w-8 h-8 mr-4 mt-2 ml-4" />
+                    <div class="  md:w-5/12 flex pb-8">
+                        <img src="/assets/logo_fivetran.svg" class="w-8 h-8 mr-4 mt-2 ml-4" />
                         <div class="">
                             <p class="text-lg font-medium ">Fivetran</p>
                             <p class="text-sm font-light leading-1 text-slate-100 mb-2">Leadership Advisor – 2020-2022
                             </p>
                         </div>
                     </div>
-                    <div class="fade-in-scroll md:w-5/12 flex pb-8">
-                        <img src="./assets/logo_gainsight.svg" class="w-8 h-8 mr-4 mt-2 ml-4" />
+                    <div class="  md:w-5/12 flex pb-8">
+                        <img src="/assets/logo_gainsight.svg" class="w-8 h-8 mr-4 mt-2 ml-4" />
                         <div class="">
                             <p class="text-lg font-medium">Gainsight</p>
                             <p class="text-sm font-light leading-1 text-slate-100 mb-2">Leadership Advisor – 2014-2016
                             </p>
                         </div>
                     </div>
-                    <div class="fade-in-scroll md:w-5/12 flex pb-8">
-                        <img src="./assets/icon_pencil.svg" class="w-8 h-8 mr-4 mt-2 ml-4" />
+                    <div class="  md:w-5/12 flex pb-8">
+                        <img src="/assets/icon_pencil.svg" class="w-8 h-8 mr-4 mt-2 ml-4" />
                         <div class="">
                             <p class="text-lg font-medium">Decarolis</p>
                             <p class="text-sm font-light leading-1 text-slate-100 mb-2">UI/UX Designer – 2006-2008</p>
                         </div>
                     </div>
-                    <div class="fade-in-scroll md:w-5/12 flex pb-8">
-                        <img src="./assets/icon_mobile.svg" class="w-8 h-8 mr-4 mt-2 ml-4" />
+                    <div class="  md:w-5/12 flex pb-8">
+                        <img src="/assets/icon_mobile.svg" class="w-8 h-8 mr-4 mt-2 ml-4" />
                         <div class="">
                             <p class="text-lg font-medium">LetsTalk</p>
                             <p class="text-sm font-light leading-1 text-slate-100 mb-2">UI/UX Designer – 2005-2006</p>
@@ -177,63 +158,63 @@
                     </div>
                 </div>
         </section>
-        <section class="w-full ">
+        <section class="w-full fade-delay-2">
             <h2
-                class="fade-in-scroll border-t border-slate-600 p-8 text-center uppercase text-slate-300 antialiased tracking-wider text-lg ">
+                class="  border-t border-slate-600 p-8 text-center uppercase text-slate-300 antialiased tracking-wider text-lg ">
                 Examples </h2>
             <div class="flex flex-wrap pb-8 pb-8 gap-8 items-center justify-center ">
                 <button onClick='showDialog1()'
-                    class="md:w-1/4 w-1/3 rounded-lg fade-in-scroll pt-4 transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
-                    <img src="./assets/img_thumbnail_brand.svg" alt="">
+                    class="md:w-1/4 w-1/3 rounded-lg   pt-4 transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                    <img src="/assets/img_thumbnail_brand.svg" alt="">
                     <div class="text-xs font-light  text-slate-200 pt-2 tracking-wide text-slate-200 pb-4">SingleStore
                         Branding</div>
                 </button>
                 <button onClick='showDialog2()'
-                    class="md:w-3/12 w-1/3 pt-4 rounded-lg fade-in-scroll transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
-                    <img src="./assets/img_thumbnail_design-system.svg" alt="">
+                    class="md:w-3/12 w-1/3 pt-4 rounded-lg   transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                    <img src="/assets/img_thumbnail_design-system.svg" alt="">
                     <div
                         class="text-xs font-light  text-slate-200 pt-2 tracking-wide text-slate-200 pt-2 tracking-wide pb-4">
                         Fusion Design System</div>
                 </button>
                 <button onClick='showDialog3()'
-                    class="md:w-1/4 w-1/3 rounded-lg fade-in-scroll pt-4 transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
-                    <img src="./assets/img_thumbnail_query-profile.svg" alt="">
+                    class="md:w-1/4 w-1/3 rounded-lg   pt-4 transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                    <img src="/assets/img_thumbnail_query-profile.svg" alt="">
                     <div class="text-xs font-light  text-slate-200 pt-2 tracking-wide text-slate-200 pb-4">Query
                         Profiler</div>
                 </button>
                 <button onClick='showDialog4()'
-                    class="md:w-1/4 w-1/3 rounded-lg fade-in-scroll pt-4 transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
-                    <img src="./assets/img_thumbnail_admin.svg" alt="">
+                    class="md:w-1/4 w-1/3 rounded-lg   pt-4 transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                    <img src="/assets/img_thumbnail_admin.svg" alt="">
                     <div class="text-xs font-light  text-slate-200 pt-2 tracking-wide text-slate-200 pb-4">Box Admin
                     </div>
                 </button>
                 <button onClick='showDialog5()'
-                    class="md:w-1/4 w-1/3 rounded-lg fade-in-scroll pt-4 transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
-                    <img src="./assets/img_thumbnail_box-notes.svg" alt="">
+                    class="md:w-1/4 w-1/3 rounded-lg   pt-4 transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                    <img src="/assets/img_thumbnail_box-notes.svg" alt="">
                     <div class="text-xs font-light  text-slate-200 pt-2 tracking-wide text-slate-200 pb-4">Box Notes
                     </div>
                 </button>
                 <button onClick='showDialog6()'
-                    class="md:w-1/4 w-1/3 rounded-lg fade-in-scroll pt-4 transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
-                    <img src="./assets/img_thumbnail_billing.svg" alt="">
+                    class="md:w-1/4 w-1/3 rounded-lg   pt-4 transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                    <img src="/assets/img_thumbnail_billing.svg" alt="">
                     <div class="text-sm font-light  text-slate-200 pt-2 tracking-wide text-slate-200 pb-4">Usage Based
                         Billing</div>
                 </button>
 
 
                 <p
-                    class="fade-in-scroll text-sm font-light w-3/4 text-center leading-1 text-slate-400 tracking-wide text-slate-300 mt-4 mb-8">
+                    class="  text-sm font-light w-3/4 text-center leading-1 text-slate-400 tracking-wide text-slate-300 mt-4 mb-8">
                     Full portfolio with case studies available upon request. Email
                     <a href="mailto:phil@sheffieldesign.com">phil@sheffieldesign.com</a>
                 </p>
         </section>
-        <section class="w-full pb-8">
+        <section class="w-full pb-8 fade-delay-2">
             <h2
-                class="fade-in-scroll border-t border-slate-600 pt-8 text-center uppercase text-slate-300 antialiased tracking-wider text-lg  ">
+                class="  border-t border-slate-600 pt-8 text-center uppercase text-slate-300 antialiased tracking-wider text-lg  ">
                 Education</h2>
             <div class="flex flex-wrap sm:px-8 sm:mx-4 pt-8">
-                <div class="fade-in-scroll flex  pb-8 items-center fade-in-scroll">
-                    <img src="./assets/logo_cal-poly.svg" class="w-8 m-4" />
+                <div class="  flex  pb-8 items-center  ">
+                    <img src="/assets/logo_cal-poly.svg" class="w-8 m-4" />
                     <div class="">
                         <p class="text-l font-medium sm:mb-1">Cal Poly</p>
                         <p class="text-sm font-light leading-1 text-slate-300">Bachelor of Science • Art & Design •
@@ -244,13 +225,13 @@
         </section>
         <section class="w-full pb-8">
             <h2
-                class="fade-in-scroll border-t border-slate-600 pt-8 text-center uppercase text-slate-300 antialiased tracking-wider text-lg   mb-4">
+                class="  border-t border-slate-600 pt-8 text-center uppercase text-slate-300 antialiased tracking-wider text-lg   mb-4">
                 Patents</h2>
             <div class="sm:px-8">
                 <a href="https://patents.google.com/patent/US9978040B2/en?oq=9978040">
                     <div
-                        class="flex m-0 sm:m-4 p-4 mb-4 items-center fade-in-scroll rounded-lg fade-in-scroll transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
-                        <img src="./assets/icon_patent.svg" class="w-8 m-4" />
+                        class="flex m-0 sm:m-4 p-4 mb-4 items-center   rounded-lg   transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                        <img src="/assets/icon_patent.svg" class="w-8 m-4" />
                         <div>
                             <p class="text-l font-medium sm:mb-1">Enterprise Application Authentication</p>
                             <p class="text-sm font-light leading-1 text-slate-300">US 9978040 • Issued May 22, 2018</p>
@@ -259,8 +240,8 @@
                 </a>
                 <a class="" href="https://patents.google.com/patent/US9495364B2/en?oq=9495364">
                     <div
-                        class="flex m-0 sm:m-4 p-4 mb-4 items-center fade-in-scroll rounded-lg fade-in-scroll transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
-                        <img src="./assets/icon_patent.svg" class="w-8 m-4" />
+                        class="flex m-0 sm:m-4 p-4 mb-4 items-center   rounded-lg   transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                        <img src="/assets/icon_patent.svg" class="w-8 m-4" />
                         <div>
                             <p class="text-l font-medium sm:mb-1">Enhanced Quick Search Features</p>
                             <p class="text-sm font-light leading-1 text-slate-300">US 9495364 • Issued Nov 15, 2016</p>
@@ -269,8 +250,8 @@
                 </a>
                 <a href="https://patents.google.com/patent/US8868574B2/en?oq=886857">
                     <div
-                        class="flex m-0 sm:m-4 p-4  items-center fade-in-scroll rounded-lg fade-in-scroll transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
-                        <img src="./assets/icon_patent.svg" class="w-8 m-4" />
+                        class="flex m-0 sm:m-4 p-4  items-center   rounded-lg   transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                        <img src="/assets/icon_patent.svg" class="w-8 m-4" />
                         <div>
                             <p class="text-l font-medium sm:mb-1">Advanced Search and Filtering mechanisms</p>
                             <p class="text-sm font-light leading-1 text-slate-300">US US8868574 • Issued Oct 21, 2014
@@ -280,16 +261,16 @@
                 </a>
             </div>
         </section>
-        <section class="w-full pb-8 ">
+        <section class="w-full pb-8 fade-delay-2">
             <h2
-                class="fade-in-scroll border-t border-slate-600 pt-8 text-center uppercase text-slate-300 antialiased tracking-wider text-lg   mb-4">
+                class="  border-t border-slate-600 pt-8 text-center uppercase text-slate-300 antialiased tracking-wider text-lg   mb-4">
                 Talks</h2>
             <div class="sm:px-8">
 
                 <a href="https://open.spotify.com/episode/0KFeP5skvPNLEQMkJgiQYs">
                     <div
-                        class="flex m-0 sm:m-4 p-4 items-center fade-in-scroll rounded-lg fade-in-scroll transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
-                        <img src="./assets/icon_podcast.svg" class="w-8 m-4" />
+                        class="flex m-0 sm:m-4 p-4 items-center   rounded-lg   transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0">
+                        <img src="/assets/icon_podcast.svg" class="w-8 m-4" />
                         <div>
                             <p class="text-l font-medium mb-1">Crafting Creative Collaborations with Phil Sheffield</p>
                             <p class="text-sm font-light leading-1 text-slate-300">Technical Recruiting Playbooks •
@@ -299,16 +280,16 @@
                 </a>
             </div>
         </section>
-        <section class="w-full">
+        <section class="w-full fade-delay-2">
             <h2
-                class="fade-in-scroll border-t border-slate-600 pt-8 text-center uppercase text-slate-300 antialiased tracking-wider text-lg   mb-4">
+                class="  border-t border-slate-600 pt-8 text-center uppercase text-slate-300 antialiased tracking-wider text-lg   mb-4">
                 Connect </h2>
             <div class="flex md:flex-wrap flex-col md:flex-row mx-2 sm:px-8 md:justify-between mb-8 ">
-                <div class="flex md:w-6/12 fade-in-scroll">
+                <div class="flex md:w-6/12  ">
                     <a class="w-full md:m-4 p-4 md:p-0 rounded-lg transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0"
                         href="https://www.linkedin.com/in/philipsheffield/">
-                        <div class="flex sm:m-4 items-center fade-in-scroll">
-                            <img src="./assets/icon_linkedin.svg" class="w-8 m-4" />
+                        <div class="flex sm:m-4 items-center  ">
+                            <img src="/assets/icon_linkedin.svg" class="w-8 m-4" />
                             <div>
                                 <p class="text-l font-normal">Linkedin</p>
                                 <p class="text-sm font-light leading-1 text-slate-300">Connect</p>
@@ -316,11 +297,11 @@
                         </div>
                     </a>
                 </div>
-                <div class="flex md:w-6/12 fade-in-scroll md:mt-0 mt-4">
+                <div class="flex md:w-6/12   md:mt-0 mt-4">
                     <a class="w-full md:m-4 p-4 md:p-0 rounded-lg  transition-all duration-300 ease-in-out bg-slate-800/50 hover:bg-slate-800 hover:rounded-lg active:bg-slate-900 hover:-translate-y-1 active:-translate-y-0"
                         href="mailto:phil@sheffieldesign.com">
-                        <div class="flex sm:m-4 items-center fade-in-scroll">
-                            <img src="./assets/icon_envelope.svg" class="w-8 m-4" />
+                        <div class="flex sm:m-4 items-center  ">
+                            <img src="/assets/icon_envelope.svg" class="w-8 m-4" />
                             <div>
                                 <p class="text-l font-normal">Email</p>
                                 <p class="text-sm font-light leading-1 text-slate-300">phil@sheffieldesign.com</p>
@@ -335,7 +316,7 @@
         class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 ">
         <div class="w-full content-scroll fade-in-simple ">
             <div class="flex flex-col m-auto md:p-16 p-4 pt-16 max-w-6xl pb-32">
-                <img src="./assets/img_lg_brand_website.png" alt="" class="scale-in">
+                <img src="/assets/img_lg_brand_website.png" alt="" class="scale-in">
                 <div class="font-medium text-3xl md:mx-16 mx-4 mt-16">From MemSQL to SingleStore </div>
                 <div class="flex flex-col md:flex-row gap-8 md:mx-16 mx-4 ">
 
@@ -388,7 +369,7 @@
         class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 ">
         <div class="w-full content-scroll fade-in-simple ">
             <div class="flex flex-col m-auto md:p-16 p-4 pt-16 max-w-6xl pb-32">
-                <img src="./assets/img_lg_design-system.png" alt="" class="scale-in">
+                <img src="/assets/img_lg_design-system.png" alt="" class="scale-in">
                 <div class="font-medium text-3xl md:mx-16 mx-4 mt-16">SingleStore's Fusion Design System </div>
                 <div class="flex flex-col md:flex-row gap-8 md:mx-16 mx-4 ">
 
@@ -466,7 +447,7 @@
         class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 ">
         <div class="w-full content-scroll fade-in-simple ">
             <div class="flex flex-col m-auto md:p-16 p-4 pt-16 max-w-6xl pb-32">
-                <img src="./assets/img_lg_query-profile.png" alt="" class="scale-in">
+                <img src="/assets/img_lg_query-profile.png" alt="" class="scale-in">
                 <div class="font-medium text-3xl md:mx-16 mx-4 mt-16">Query Profiler </div>
                 <div class="flex flex-col md:flex-row gap-8 md:mx-16 mx-4 ">
 
@@ -525,7 +506,7 @@
         class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 ">
         <div class="w-full content-scroll fade-in-simple ">
             <div class="flex flex-col m-auto md:p-16 p-4 pt-16 max-w-6xl pb-32">
-                <img src="./assets/img_lg_billing.png" alt="" class="scale-in">
+                <img src="/assets/img_lg_billing.png" alt="" class="scale-in">
                 <div class="font-medium text-3xl md:mx-16 mx-4 mt-16">Usage Based Billing </div>
                 <div class="flex flex-col md:flex-row gap-8 md:mx-16 mx-4 ">
 
@@ -578,7 +559,7 @@
         class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 ">
         <div class="w-full content-scroll fade-in-simple ">
             <div class="flex flex-col m-auto md:p-16 p-4 pt-16 max-w-6xl pb-32">
-                <img src="./assets/img_lg_box-notes.png" alt="" class="scale-in">
+                <img src="/assets/img_lg_box-notes.png" alt="" class="scale-in">
                 <div class="font-medium text-3xl md:mx-16 mx-4 mt-16">Box Notes</div>
                 <div class="flex flex-col md:flex-row gap-8 md:mx-16 mx-4 ">
 
@@ -626,7 +607,7 @@
         class=" top-0 w-full h-screen text-white backdrop-filter backdrop-blur-md bg-slate-900 bg-opacity-70 ">
         <div class="w-full content-scroll fade-in-simple ">
             <div class="flex flex-col m-auto md:p-16 p-4 pt-16 max-w-6xl pb-32">
-                <img src="./assets/img_lg_box-admin.png" alt="" class="scale-in">
+                <img src="/assets/img_lg_box-admin.png" alt="" class="scale-in">
                 <div class="font-medium text-3xl md:mx-16 mx-4 mt-16">Box Admin Console
                 </div>
                 <div class="flex flex-col md:flex-row gap-8 md:mx-16 mx-4 ">
@@ -670,7 +651,7 @@
 
 
     </div>
-    <script src="index.js"></script>
+    
 </body>
 
 </html>

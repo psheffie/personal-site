@@ -1,46 +1,28 @@
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 /* ====== animations    */
-    .fade-in-scroll {
-        opacity:0.0;
+    /* #fade-in-scroll {
+        display: none;
         transform: translateY(20%);
         transition: all 0.4s ease-in-out .2s;
     }
-    .fade-delay-1-scroll {
-        opacity:0;
-        transform: translateY(20%);
-        transition: all 0.3s ease-in-out .2s;
-    }
-    .fade-delay-2-scroll {
-        opacity:0;
-        transform: translateY(20%);
-        transition: all 0.3s ease-in-out .6s;
-    }
-    .fade-delay-3-scroll {
-        opacity:0;
-        transform: translateY(20%);
-        transition: all 0.3s ease-in-out 1s;
-    }
-    .fade-section-scroll {
-        opacity:0;
-        transform: translateY(5%);
-        transition: all 0.2s ease-in-out 0s;
-    }
 
+
+    #fade-in-scroll.fade-selected {
+        display: flex;
+        transform: translateY(0);
+    } */
+
+
+    body {
+        font-family: rubik;
+    }
+    
     .fade-in-simple {
         opacity:0;
         animation: transform .3s ease-in .2s 1 normal both ;
     }
 
 
-    .active {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    
     .scale-in {
         opacity:0;
         transform: scale(0.9);
@@ -54,13 +36,18 @@
     }
     .fade-delay-1 {
         opacity:0;
-        transform: translateY(5%);
-        animation: transform .3s ease-in .4s 1 normal both ;
+        transform: translateY(05%);
+        animation: transform .3s ease-in .5s 1 normal both ;
+    }
+    .fade-delay-1-5 {
+        opacity:0;
+        transform: translateY(05%);
+        animation: transform .3s ease-in .7s 1 normal both ;
     }
     .fade-delay-2 {
         opacity:0;
-        transform: translateY(20%);
-        animation: transform .3s ease-in .6s 1 normal both ;
+        transform: translateY(05%);
+        animation: transform .3s ease-in 1.6s 1 normal both ;
     }
     .fade-delay-3 {
         opacity:0;
