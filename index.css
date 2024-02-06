@@ -1,4 +1,8 @@
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /* ====== animations    */
     .fade-in-scroll {
         opacity:0.0;
@@ -32,7 +36,7 @@
     }
 
 
-    .fade-selected {
+    .active {
         opacity: 1;
         transform: translateY(0);
     }
